@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  overflow-x: hidden;
+  background:white;
 }
 
 .App-logo {
@@ -34,5 +35,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.scrollnikalo{
+  scrollbar-width: none;
+}
+@media (width<=1300px) {
+  .home{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width<=950px) {
+  .home{
+    grid-template-columns: 1fr;
   }
 }

@@ -10,7 +10,7 @@ const NavBar = () => {
        <div className='flex flex-row justify-between items-center'>
           <div>
           <Link to="/">
-          <img src={logo} width={150} height={60}></img>
+          <img src={logo} width={150} height={100}></img>
           </Link>
           </div>
           <div className='flex flex-row text-[16px] text-white gap-10'>

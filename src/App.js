@@ -7,7 +7,7 @@ import Cart from './pages/Cart';
 function App() {
   return (
     <div className="App">
-          <div className='bg-red-200 w-[100vw] h-[20vh]'>
+          <div className='bg-slate-900 w-[100vw] h-[10vh]'>
           <NavBar></NavBar>
           </div>
           <Routes>
